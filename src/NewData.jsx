@@ -38,7 +38,7 @@ const NewsDataProvide = ({ children }) => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'a75cb2224dmsh08c9174e873e43ep174b39jsn3f37c09e8ae1',
+            'X-RapidAPI-Key': 'MENTION-API-KEY',
             'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
         }
     };
