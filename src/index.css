@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+.flex-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../23279.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    background-color: transparent;
+
+}
+
+/* Information */
+.info {
+    border-radius: 3rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../26302.jpg);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.info center {
+    font-size: 3.7rem;
+    font-weight: 600;
+}
+
+.infoBox {
+    background-image: url(../public/26302.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3rem 3rem 0 0;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(102, 151, 206);
+    width: 18rem;
+    color: white;
+    background-image: url(../public/26302.jpg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 11rem;
+    margin: .8rem;
+    border-radius: 1.5rem;
+}
+
+.box span {
+    font-size: 2.6rem;
+}
+
+/* Search */
+.search {
+    background-image: url(../public/26302.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 80%;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 2rem;
+}
+
+.search input {
+    padding: .7rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    width: 30rem;
+    outline: none;
+}
+
+.search input:focus {
+    transition: all 0.34s ease-in-out;
+    border: 4px solid rgb(56, 56, 105);
+}
+
+.btn {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: .8rem 1.8rem;
+    border-radius: 1rem;
+    border: 3px solid white;
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn:hover {
+    transition: all .55s ease-in;
+    transform: translate(-10px);
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+}
+
+.search h3 {
+    font-size: 9rem;
+}
+
+.search span {
+    font-size: 5.5rem;
+}
+
+.search h2 {
+    font-size: 3rem;
+}
+
+.search h4 {
+    font-size: 4rem;
+}
+
+/* heading */
+.heading {
+    margin: 1rem;
+    font-size: 2rem;
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.heading p {
+    margin: 0 4rem;
+}
+
+@media (max-width:922px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:887px) {
+    .heading p {
+        margin: 0 2rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:725px) {
+    .box {
+        padding: 1rem;
+        width: 14rem;
+        height: 11rem;
+        margin: .5rem;
+    }
+
+    .box span {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:557px) {
+    .content {
+        width: 90%;
+    }
+}
+
+@media(max-width:350px) {
+    .search input {
+        padding: .7rem 1.5rem;
+        border-radius: 1rem;
+        font-size: 1.4rem;
+        width: 25rem;
+
+    }
+}
+
+@media(max-width:338px) {
+    .box {
+        padding: .6rem;
+        width: 12rem;
+        height: 8.5rem;
+        margin: .3rem;
+    }
+
+    .box span {
+        font-size: 1.5rem;
+    }
+
+    .heading p {
+        margin: 0 1.5rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:400px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width:290px) {
+    .search input {
+        padding: .7rem 1.5rem;
+        border-radius: 1rem;
+        font-size: 1.4rem;
+        width: 20rem;
+
+    }
+}
